@@ -1,0 +1,14 @@
+<ehcache>
+	<defaultCache
+		maxEntriesLocalHeap = "100"
+		eternal = "false"
+		timeToIdleSeconds = "50"
+		timeToLiveSeconds = "120">
+		</defaultCache>
+	<cache name = "com.ait.entity.EmployeeEntity"
+			maxEntriesLocalHeap = "10"
+			eternal = "false"
+			timeToIdleSeconds ="20"
+			timeToLiveSeconds = "60">
+			</cache>	
+</ehcache>
